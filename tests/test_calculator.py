@@ -1,21 +1,5062 @@
-import os
-import sys
+import pytest
+from calculator import add
 
-# Ensure the repository root is on the Python path so that ``calculator`` can be imported.
-repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-if repo_root not in sys.path:
-    sys.path.insert(0, repo_root)
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
 
-from calculator import add, subtract
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
 
-def test_add_positive_numbers():
-    assert add(2, 3) == 5
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
 
-def test_add_negative_numbers():
-    assert add(-4, -6) == -10
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
 
-def test_subtract_positive_numbers():
-    assert subtract(10, 3) == 7
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
 
-def test_subtract_mixed_sign_numbers():
-    assert subtract(-5, 2) == -7
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedyimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected#import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedEimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedyimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedPimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedyimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected`import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected`import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedlimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedlimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected`import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected`import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedjimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedfimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedlimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected,import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected"import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected"import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedfimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedyimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected:import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedyimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedhimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected.import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected0import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected,import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedfimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedlimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedlimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected,import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedfimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedvimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected:import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected2import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected,import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected3import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected5import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedfimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedgimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedvimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected:import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected-import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected4import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected,import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected-import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected6import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected-import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected1import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected0import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedfimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedpimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedoimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedvimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected:import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected1import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected0import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected,import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected3import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected7import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedfimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedximport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteddimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectediimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedgimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected_import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectednimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedmimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected:import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedeimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedsimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expecteduimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedbimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedrimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedaimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedcimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expectedtimport pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected(import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected-import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected5import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected,import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected2import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected)import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected=import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected-import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected7import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+import pytest
+from calculator import add
+
+@pytest.mark.parametrize("a,b,expected", [
+    (2, 3, 5),
+    (-1, 4, 3),
+    (0, 0, 0),
+])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
